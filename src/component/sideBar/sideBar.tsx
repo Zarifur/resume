@@ -177,7 +177,7 @@ const Sidebar = () => {
           </nav>
 
           {/* Social Icons */}
-          <div className="flex space-x-6 mb-8 pt-24 pb-10">
+          <div className="flex space-x-6 mb-8 pt-24 pb-10 gap-2">
             <a
               href="https://www.linkedin.com/in/zarif-amir/"
               target="_blank"
