@@ -1,30 +1,26 @@
-import React, { useEffect, useState } from "react";
-import './App.css';
-import { Route, Switch } from 'wouter';
-import HomeSection from './component/home';
-import Sidebar from './component/sideBar/sideBar';
-import PageLoader from '../src/component/lodar/lodar';
-import AboutMe from './component/aboutMe';
-import Resume from './component/resume';
-import ContactPage from './component/contact';
+import "./App.css";
+import { Route, Switch } from "wouter";
+import HomeSection from "./component/home";
+import Sidebar from "./component/sideBar/sideBar";
+import PageLoader from "../src/component/lodar/lodar";
+import AboutMe from "./component/aboutMe";
+import Resume from "./component/resume";
+import ContactPage from "./component/contact";
 
 function App() {
-  const [count, setCount] = useState(0);
-  
   // useEffect(() => {
   //   const favicon = document.querySelector("link[rel*='icon']") || document.createElement("link");
   //   favicon.type = "image/png";
   //   favicon.rel = "icon";
-  //   favicon.sizes = "512x512"; // 
+  //   favicon.sizes = "512x512"; //
   //   favicon.href = "/img/zarif_logo.png"; // Update path if needed
   //   document.head.appendChild(favicon);
   // }, []);
 
   return (
     <div className="bg-[#222222] text-gray-100 font-sans min-h-screen md:flex">
-      <PageLoader />  {/* Loading bar component */}
+      <PageLoader /> {/* Loading bar component */}
       <Sidebar />
-
       <main className="relative flex-1 w-full md:w-[70%] md:ml-[30%] h-screen overflow-y-auto bg-[#222222]">
         <Switch>
           <Route path="/">
@@ -37,7 +33,7 @@ function App() {
             <Resume />
           </Route>
           <Route path="/contact">
-            <ContactPage/>
+            <ContactPage />
           </Route>
           <Route>
             <div className="h-screen flex items-center justify-center">

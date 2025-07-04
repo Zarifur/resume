@@ -1,4 +1,4 @@
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 
 const calculateAge = () => {
   const birthDate = new Date("1999-10-04");

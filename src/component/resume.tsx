@@ -120,20 +120,20 @@ const Resume = () => {
     },
   ];
 
-  const designSkills = [
-    { name: "Web Design", level: "95%" },
-    { name: "Print Design", level: "65%" },
-    { name: "Logo Design", level: "80%" },
-    { name: "Graphic Design", level: "90%" },
-  ];
+  // const designSkills = [
+  //   { name: "Web Design", level: "95%" },
+  //   { name: "Print Design", level: "65%" },
+  //   { name: "Logo Design", level: "80%" },
+  //   { name: "Graphic Design", level: "90%" },
+  // ];
 
-  const codingSkills = [
-    { name: "JavaScript", level: "95%" },
-    { name: "PHP", level: "85%" },
-    { name: "HTML/CSS", level: "100%" },
-    { name: "Smarty/Twig", level: "75%" },
-    { name: "Perl", level: "90%" },
-  ];
+  // const codingSkills = [
+  //   { name: "JavaScript", level: "95%" },
+  //   { name: "PHP", level: "85%" },
+  //   { name: "HTML/CSS", level: "100%" },
+  //   { name: "Smarty/Twig", level: "75%" },
+  //   { name: "Perl", level: "90%" },
+  // ];
 
   return (
     <>
