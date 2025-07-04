@@ -53,7 +53,8 @@ const Sidebar = () => {
             {/* Top content: profile */}
             <div className="flex flex-col items-center pt-8">
               <img
-                src="/img/Zarif.jpg"
+                //src="/img/Zarif.jpg"
+                src={`${import.meta.env.BASE_URL}img/Zarif.jpg`}
                 alt="Profile"
                 className="w-60 h-60 rounded-full object-cover border-4 border-white mb-6"
               />
@@ -96,7 +97,8 @@ const Sidebar = () => {
 
               {/* Download CV button */}
               <a
-                href="/files/Zarif_Amir_Sanad.pdf"
+                //href="/files/Zarif_Amir_Sanad.pdf"
+                href={`${import.meta.env.BASE_URL}files/Zarif_Amir_Sanad.pdf`}
                 download="Zarif_Amir_Sanad_CV.pdf"
                 className="group inline-flex items-center justify-center gap-2 px-8 py-3 border-2 border-white text-white rounded-full transition-all duration-200 ease-out hover:bg-primary-500 hover:border-cyan-400 hover:text-cyan-400 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-primary-300 font-semibold"
                 aria-label="Download Zarif Amir Sanad's CV"
